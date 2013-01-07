@@ -14,7 +14,5 @@
     :target-path "targets/"
     :javac-options ["-target" "1.6" "-source" "1.6" "-Xlint:-options"]
 
-    :jvm-opts ["-Xmx2g"]
-
-    :repositories [["sonatype" "http://oss.sonatype.org/content/repositories/releases"]])
+    :jvm-opts ["-Xmx2g"])
 
