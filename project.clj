@@ -1,4 +1,4 @@
-(defproject com.guokr.nlp/clj-cn-nlp "0.1.0"
+(defproject com.guokr/clj-cn-nlp "0.1.0"
 
     :description "A clojure wrapper of Stanford NLP packages for Simplified Chinese users"
     :url "https://github.com/guokr/clj-cn-nlp/"
