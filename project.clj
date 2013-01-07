@@ -1,5 +1,13 @@
 (defproject com.guokr.nlp/clj-cn-nlp "0.1.0"
+
     :description "A clojure wrapper of Stanford NLP packages for Simplified Chinese users"
+    :url "https://github.com/guokr/clj-cn-nlp/"
+
+    :license {:name "Eclipse Public License - v 1.0"
+            :url "http://www.eclipse.org/legal/epl-v10.html"
+            :distribution :repo
+            :comments "same as Clojure"}
+
     :dependencies [[org.clojure/clojure "1.4.0"]
                    [edu.stanford.nlp/stanford-corenlp "1.3.3"]
                    [com.guokr/stan-cn-nlp "0.0.1"]]
