@@ -1,3 +1,3 @@
 (ns com.guokr.nlp.ner)
 
-(defn ner [text] (com.guokr.nlp.NerWrapper/recognize text))
+(defn ner [text] (.recognize com.guokr.nlp.__PKG__/INSTANCE text))
