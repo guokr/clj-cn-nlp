@@ -9,7 +9,7 @@
             :comments "same as Clojure"}
 
     :dependencies [[org.clojure/clojure "1.4.0"]
-                   [com.guokr/stan-cn-nlp "0.0.2-SNAPSHOT"]]
+                   [com.guokr/stan-cn-nlp "0.0.2"]]
 
     :source-paths ["src/main/clojure"]
     :java-source-paths ["src/main/java"]
@@ -21,5 +21,5 @@
     :target-path "targets/"
     :javac-options ["-target" "1.6" "-source" "1.6" "-Xlint:-options"]
 
-    :jvm-opts ["-Xmx2g"])
+    :jvm-opts ["-Xmx3g"])
 
