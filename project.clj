@@ -8,8 +8,11 @@
             :distribution :repo
             :comments "same as Clojure"}
 
-    :dependencies [[org.clojure/clojure "1.4.0"]
-                   [com.guokr/stan-cn-nlp "0.0.2"]]
+    :dependencies [[org.clojure/clojure "1.5.1"]
+                   [com.guokr/stan-cn-com "0.0.3"]
+                   [com.guokr/stan-cn-seg "0.0.3"]
+                   [com.guokr/stan-cn-ner "0.0.3"]
+                   [com.guokr/stan-cn-tag "0.0.3"]]
 
     :source-paths ["src/main/clojure"]
     :java-source-paths ["src/main/java"]
@@ -19,7 +22,6 @@
 
     :compile-path "targets/classes"
     :target-path "targets/"
-    :javac-options ["-target" "1.6" "-source" "1.6" "-Xlint:-options"]
 
     :jvm-opts ["-Xmx3g"])
 
