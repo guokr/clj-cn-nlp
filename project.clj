@@ -1,4 +1,4 @@
-(defproject com.guokr/clj-cn-nlp "0.2.0"
+(defproject com.guokr/clj-cn-nlp "0.2.1"
 
     :description "A clojure wrapper of Stanford NLP packages for Simplified Chinese users"
     :url "https://github.com/guokr/clj-cn-nlp/"
@@ -9,10 +9,10 @@
             :comments "same as Clojure"}
 
     :dependencies [[org.clojure/clojure "1.5.1"]
-                   [com.guokr/stan-cn-com "0.0.3"]
-                   [com.guokr/stan-cn-seg "0.0.3"]
-                   [com.guokr/stan-cn-ner "0.0.3"]
-                   [com.guokr/stan-cn-tag "0.0.3"]]
+                   [com.guokr/stan-cn-com "0.0.4"]
+                   [com.guokr/stan-cn-seg "0.0.4"]
+                   [com.guokr/stan-cn-ner "0.0.4"]
+                   [com.guokr/stan-cn-tag "0.0.4"]]
 
     :source-paths ["src/main/clojure"]
     :java-source-paths ["src/main/java"]
